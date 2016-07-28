@@ -1,0 +1,159 @@
+@import url('http://fonts.googleapis.com/css?family=Titillium+Web:400');
+@import url('http://fonts.googleapis.com/css?family=Titillium+Web:200');
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+
+/* For code */
+@import url('http://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('http://fonts.googleapis.com/css?family=Kameron');
+@import url('http://fonts.googleapis.com/css?family=Lato:200,300,400');
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+* {
+    font-family: "Lato";    
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+    font-family: "Titillium Web";    
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 60px;    
+    padding: 120px;
+    background: #6f6f7d;
+    background: url("/static/img/rocket.jpg");
+    background: linear-gradient(
+			rgba(0, 0, 0, 0.1), 
+			rgba(0, 0, 0, 0.8)
+		    ),
+    url("/static/img/space2.jpg");    
+
+
+    background-size: cover;
+    background-position-y: 0px;
+
+    
+
+    color:white;
+}
+
+.tagline {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.tagline a {
+    color: white;
+    text-decoration: underline;
+}
+
+.header h1 {
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.subscribe-ctas {
+    margin: 20px auto;
+    width: 50%;
+    width: 360px;    
+}
+.subscribe-ctas input {
+    float: left;
+    width: 200px;
+    height:40px;
+}
+
+.subscribe-ctas .button {
+    float: left;
+    height:40px;
+    margin-right: 10px;
+}
+
+
+.episode-list {
+    padding: 80px;
+    padding-top: 20px;    
+}
+
+.episode-list h2 {
+    font-size:1.25rem;
+}
+.episode-list .button {
+    float:left;
+    font-size: 50px;
+    padding: 20px;
+    margin-right: 10px;
+
+}    
+
+.right {
+    float:right!important;
+}
+
+.hidden {
+    display:none;
+}
+    
+.episode-.list button .fa {
+}
+
+
+
+
+
+/* timeline */
+.timeline {
+    position:relative;
+}
+.exp-timeline {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    z-index: 10;
+}
+.exp-timeline ul.items {
+  margin-left: 0;
+}
+.exp-timeline ul.items li {
+  display: block;
+  margin-bottom: 0;
+  height: 10px;  
+}
+.exp-timeline ul.items li .active {
+  background: #008cba;
+  height: 0.625rem;
+  float: left;
+  position: relative;
+}
+.exp-timeline ul.items li .start {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  left: 0;
+  background: #008cba;
+  border-radius: 50%;
+  top: -0.3125rem;
+  left: -0.625rem;
+}
+.exp-timeline ul.items li .finish {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  right: 0;
+  background: #008cba;
+  border-radius: 50%;
+  top: -0.3125rem;
+  right: -0.625rem;
+}
+.exp-timeline ul.items li .inactive {
+  background: #eee;
+  height: 0.625rem;
+  float: left;
+}
+
