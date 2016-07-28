@@ -95,8 +95,7 @@ $(document).ready(function() {
 		var discussionButton = "";
 		if (discussion) {
 		    discussionButton = `	              
-                            <a class="button right" href="`+discussion+`">	    
-	                        <i class="fa fa-comments" aria-hidden="true"></i>
+                            <a class="button right fa fa-comments" href="`+discussion+`"
 	                    </a>
 			`
 		} 
@@ -104,15 +103,14 @@ $(document).ready(function() {
 		$(".episode-list").append(`
 	              <article class="callout">
 
-			<button class="button fa fa-play-circle-o play" href="" onclick="playAudio(this);"></button>
+			<a class="button fa fa-play-circle-o play" href="" onclick="playAudio(this);"></a>
 
 	                <audio id="audio" class="hidden" controls="controls">
 	                  <source src="`+download+`" type="audio/mpeg" />
 	                </audio>	    
 
 
-                        <a class="button right" href="`+download+`">	    
-	                  <i class="fa fa-download" aria-hidden="true"></i>
+                        <a class="button right fa fa-download" href="`+download+`">	    
 	                </a>
 
 	              `+discussionButton+`	              
