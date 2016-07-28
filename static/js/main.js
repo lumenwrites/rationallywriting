@@ -103,7 +103,7 @@ $(document).ready(function() {
 		$(".episode-list").append(`
 	              <article class="callout">
 
-			<a class="button fa fa-play-circle-o play" href="" onclick="playAudio(this);"></a>
+			<a class="button fa fa-play-circle-o play" onclick="playAudio(this);"></a>
 
 	                <audio id="audio" class="hidden" controls="controls">
 	                  <source src="`+download+`" type="audio/mpeg" />
