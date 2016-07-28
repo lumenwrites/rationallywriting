@@ -89,8 +89,44 @@ h1 {
     font-size: 50px;
     padding: 20px;
     margin-right: 10px;
-
+    margin-bottom: 50px;
 }    
+
+
+@media (max-width:940px) {
+    .header {
+	padding: 40px;
+    }
+    .episode-list .button {    
+	width: calc(33.3333% - 10px);
+	float: left!important;
+	margin-bottom: 10px;
+	font-size: 30px;
+	padding: 10px;	
+    }
+    .subscribe-ctas {
+	width: 100%;
+	margin: 20px 0px;
+    }
+
+    .subscribe-ctas input, .subscribe-ctas .button  {
+	width: 100%;
+    }
+
+    
+} 
+
+@media (max-width:400px) {
+    .header {
+	padding: 20px;
+    }
+    .episode-list .button {    
+	width: calc(33.3333% - 2px);
+	font-size: 20px;
+	margin-right:2px;
+    }
+} 
+
 
 .right {
     float:right!important;
