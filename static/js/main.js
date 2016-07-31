@@ -67,7 +67,8 @@ $(document).ready(function() {
 	"https://www.reddit.com/r/rational/comments/4qzlgr/new_podcast_rationally_writing_episode_1_what_is/?ref=search_posts",
 	"https://www.reddit.com/r/rational/comments/4s4mez/rationally_writing_episode_0_history/?ref=search_posts",
 	"https://www.reddit.com/r/rational/comments/4t5fnu/d_rationally_writing_episode_2_tropes/?ref=search_posts",
-	"https://www.reddit.com/r/rational/comments/4ufadm/rationally_writing_episode_3_originality/?ref=search_posts"
+	"https://www.reddit.com/r/rational/comments/4ufadm/rationally_writing_episode_3_originality/?ref=search_posts",
+	"https://www.reddit.com/r/rational/comments/4vik6y/rationally_writing_episode_4_fanfiction/"
     ]
     
     $.ajax(feed, {
