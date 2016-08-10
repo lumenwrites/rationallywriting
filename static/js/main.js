@@ -91,6 +91,7 @@ $(document).ready(function() {
 		title = index+1 + ". " + title.split("-").pop();
 		var link = el.find("link").text();
 		var description = el.find("description").text();
+		description = description.split("Timestamps")[0];
 		var download = el.find("enclosure").attr("url");
 
 		var discussion = discussions[index];
